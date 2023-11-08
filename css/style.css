@@ -1,0 +1,132 @@
+/* Navigation */
+:root{
+    --mainfoot-color: #757575;
+    --webcolor: #2196F3;
+    --websize: 26px;
+    --studiocolor: #000;
+    --studiocolor2: #FFFFFF;
+    --backcolor: #2F303A;
+}
+.logo-web,
+.logo-web-footer {
+    color: var(--webcolor);
+    font-size: var(--websize)
+}
+.logo-studio {
+    color: var(--studiocolor);
+    font-size: var(--websize);
+}
+.logo-studiow-footer {
+    color: var(--studiocolor2);
+    font-size: var(--websize);
+}
+/* Nav */
+.menu-link{
+    color: var(--studiocolor);
+    font-weight: 500;
+    font-size: 14px;
+}
+    
+.menu-link:hover,
+.menu-link:focus,
+.contact-link:hover,
+.contact-link:focus{
+    color: var(--webcolor);
+}
+.contact-link{
+    color: var(--mainfoot-color);
+}
+
+a{
+    text-decoration: none;
+}
+/* MAIN */
+.hero-section{
+    background-color: var(--backcolor);
+}
+
+.title {
+    color: var(--studiocolor2);
+    text-align: center;
+    font-weight: 900;
+    line-height: 1.36;
+}
+
+button{
+    background-color: var(--webcolor);
+    color: var(--studiocolor2);
+}
+
+.features-title{
+    font-weight: 700;
+}
+
+.features-description{
+    color: var(--mainfoot-color);
+}
+
+.team-item-position{
+    color: var(--mainfoot-color);
+}
+
+/* footer */
+footer{
+    background-color: var(--backcolor);
+}
+.post-address{
+    color: var(--studiocolor2);
+}
+
+/* Fonts */
+ul,li{ 
+    list-style: none;
+    padding: 0;
+}
+
+/* WebStudio */
+body{
+    font-family: 'Roboto';
+    font-size: 14px;
+    line-height: 1.14;
+    font-weight: 700;
+}
+.link-web,
+.link-studio,
+.link-studiow{
+    font-family: "Raleway";
+    line-height: 1.36;
+}
+/* Navigation */
+
+
+.title{
+    font-weight: 900;
+}
+/* Опис якостей */
+.features-description{
+    font-weight: 400;
+    line-height: 1.71;
+}
+/* Команда */
+.section-title{
+    line-height: 1.16;
+}
+.team-item-name{
+    font-weight: 500;
+    line-height: 1.18;
+}
+
+.team-item-position{
+    font-weight: 400;
+    line-height: 1.18;
+}
+/* Адрес і контакти */
+.post-address{
+    font-weight: 400;
+    line-height: 1.71;
+}
+
+.contact-link{
+    font-weight: 400;
+    line-height: 1.71;
+}
